@@ -1,0 +1,120 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  20.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, symlink '../../lib/cjs/main-cli.js' -> '/Users/mingdao/Library/Caches/Yarn/v4/npm-@puppeteer-browsers-0.5.0-1a1ee454b84a986b937ca2d93146f25a3fe8b670/node_modules/@puppeteer/browsers/.bin/@puppeteer/browsers'
+
+npm manifest: 
+  {
+    "name": "intl-tel-input",
+    "version": "21.0.6",
+    "description": "A JavaScript plugin for entering and validating international telephone numbers",
+    "keywords": [
+      "international",
+      "country",
+      "dial code",
+      "telephone",
+      "phone",
+      "mobile",
+      "input",
+      "flag",
+      "dropdown",
+      "javascript",
+      "plugin",
+      "css",
+      "html",
+      "validation",
+      "formatting",
+      "react",
+      "typescript"
+    ],
+    "license": "MIT",
+    "author": "Jack O'Connor (http://jackocnr.com)",
+    "devDependencies": {
+      "@types/react": "^18.2.73",
+      "@types/react-dom": "^18.2.23",
+      "@typescript-eslint/eslint-plugin": "^7.4.0",
+      "@typescript-eslint/parser": "^7.4.0",
+      "esbuild": "^0.19.11",
+      "eslint": "^8.57.0",
+      "eslint-import-resolver-typescript": "^3.6.1",
+      "eslint-plugin-import": "^2.29.1",
+      "eslint-plugin-react": "^7.34.1",
+      "evenizer": "^0.1.11",
+      "google-closure-compiler": "^20230411.0.0",
+      "google-closure-library": "^20230411.0.0",
+      "grunt": "^1.6.1",
+      "grunt-bump": "^0.8.0",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-cssmin": "^2.2.1",
+      "grunt-contrib-imagemin": "^2.0.1",
+      "grunt-contrib-jasmine": "^4.0.0",
+      "grunt-contrib-watch": "^1.1.0",
+      "grunt-exec": "^1.0.1",
+      "grunt-replace": "^2.0.2",
+      "grunt-responsive-images": "^1.10.1",
+      "grunt-sass": "^3.0.0",
+      "grunt-shell": "^4.0.0",
+      "grunt-spritesmith": "^5.1.8",
+      "jasmine-jquery": "^2.1.1",
+      "jquery": "^3.1.1",
+      "load-grunt-config": "^4.0.1",
+      "prettier": "^2.8.7",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "region-flags": "https://github.com/fonttools/region-flags/archive/refs/tags/1.2.1.tar.gz",
+      "sass": "^1.62.0",
+      "time-grunt": "^1.4.0",
+      "typescript": "^5.4.3"
+    },
+    "files": [
+      "build/*",
+      "react/build/*",
+      "CHANGELOG.md",
+      "LICENSE",
+      "package.json",
+      "package-lock.json",
+      "README.md",
+      "index.js"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jackocnr/intl-tel-input.git"
+    },
+    "homepage": "https://intl-tel-input.com",
+    "scripts": {
+      "test": "grunt travis",
+      "build": "grunt build",
+      "build:js": "grunt js",
+      "build:utils": "grunt build:utils",
+      "build:css": "grunt css",
+      "build:img": "grunt img",
+      "watch": "grunt watch",
+      "build:react": "node react/build.js"
+    },
+    "style": "build/css/intlTelInput.css",
+    "exports": {
+      ".": "./build/js/intlTelInput.js",
+      "./data": "./build/js/data.js",
+      "./react": "./react/build/IntlTelInput.js",
+      "./*": "./*"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false, // required 
+    "editor.formatOnType": false, // required
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "vs-code-prettier-eslint.prettierLast": "false",
+    "typescript.tsdk": "node_modules/typescript/lib" // set as "true" to run 'prettier' last not first
+}
