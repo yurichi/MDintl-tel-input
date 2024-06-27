@@ -280,7 +280,7 @@ var factoryOutput = (() => {
       "56"
     ],
     [
-      "China (\u4E2D\u56FD)",
+      "China Mainland (\u4E2D\u56FD\u5927\u9646)",
       "cn",
       "86"
     ],
@@ -557,7 +557,7 @@ var factoryOutput = (() => {
       "504"
     ],
     [
-      "Hong Kong (\u4E2D\u56FD\u9999\u6E2F)",
+      "Hong Kong (\u9999\u6E2F)",
       "hk",
       "852"
     ],
@@ -716,7 +716,7 @@ var factoryOutput = (() => {
       "352"
     ],
     [
-      "Macau (\u4E2D\u56FD\u6FB3\u9580)",
+      "Macau (\u6FB3\u9580)",
       "mo",
       "853"
     ],
@@ -1170,7 +1170,7 @@ var factoryOutput = (() => {
       "963"
     ],
     [
-      "Taiwan (\u4E2D\u56FD\u53F0\u6E7E)",
+      "Taiwan (\u53F0\u6E7E)",
       "tw",
       "886"
     ],

@@ -260,7 +260,7 @@ const rawCountryData: RawCountry[] = [
     "56",
   ],
   [
-    "China (中国)",
+    "China Mainland (中国大陆)",
     "cn",
     "86",
   ],
@@ -537,7 +537,7 @@ const rawCountryData: RawCountry[] = [
     "504",
   ],
   [
-    "Hong Kong (中国香港)",
+    "Hong Kong (香港)",
     "hk",
     "852",
   ],
@@ -696,7 +696,7 @@ const rawCountryData: RawCountry[] = [
     "352",
   ],
   [
-    "Macau (中国澳門)",
+    "Macau (澳門)",
     "mo",
     "853",
   ],
@@ -1150,7 +1150,7 @@ const rawCountryData: RawCountry[] = [
     "963",
   ],
   [
-    "Taiwan (中国台湾)",
+    "Taiwan (台湾)",
     "tw",
     "886",
   ],

@@ -1,5 +1,5 @@
 {
-  "name": "@mdfe/intl-tel-input",
+  "name": "@mdfe/intl-tel-input-nocoly",
   "version": "21.0.7",
   "description": "A JavaScript plugin for entering and validating international telephone numbers",
   "keywords": [
